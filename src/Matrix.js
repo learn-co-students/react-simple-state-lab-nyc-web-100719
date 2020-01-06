@@ -21,6 +21,7 @@ export default class Matrix extends Component {
   
 }
 
+//default for values prop -> an array w 10 items
 Matrix.defaultProps = {
   values: ( ()=>{
     const defRow = ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
